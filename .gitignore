@@ -1,36 +1,26 @@
 ```
 # Dependencies
 node_modules/
-package-lock.json
-
-# Build outputs
-dist/
-build/
-*.js
-
-# Logs
-*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editor
+# Logs
+*.log
+
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *.tmp
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Build artifacts
+dist/
+build/
+target/
 
 # Python
 __pycache__/
@@ -38,62 +28,21 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-env/
 venv/
 .venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.nosetests
+.env/
 .pytest_cache/
 .mypy_cache/
+.coverage
+coverage/
+htmlcov/
 
 # Node.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-node_modules/
-jspm_packages/
-*.min.js
-*.min.css
 
-# Database
-*.sqlite
-*.sqlite3
-*.db
-
-# Compiled
-*.class
-*.o
-*.a
-*.obj
-*.out
-*.dll
-*.so
-*.exe
-
-# Compressed
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
